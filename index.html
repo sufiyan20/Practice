@@ -1,28 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>
-        My Header
-    </title>
-    <style>
-    #header{
-        background-color: rgb(41, 98, 117);
-        color:black;
-        padding: 40px;
-        text-align: center;
-    }
-
-</style>
-</head>
-<body>
-    <h1 id="header">
-        MY Header
-    </h1>
-    <h2>
-        The id Attribute
-    </h2>
-    <p>
-        Use CSS to style an element with the id "my Header".
-    </p>
-</body>
+    <head>
+        <script>
+            function myfunction(){
+                document.getElementById("demo").innerHTML="pragraph added"
+            }
+        </script>
+    </head>
+    <body>
+        <h1>A Web Page</h1>
+        <p id="demo">A Paragraph</p>
+        <button type="button" onclick="myfunction()">Try It</button>
+    </body>
 </html>
